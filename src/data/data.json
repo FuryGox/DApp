@@ -1,0 +1,19 @@
+{
+    "chartData": [
+      { "time": "00:00", "price": 100 },
+      { "time": "04:00", "price": 120 },
+      { "time": "08:00", "price": 110 },
+      { "time": "12:00", "price": 140 },
+      { "time": "16:00", "price": 130 },
+      { "time": "20:00", "price": 150 }
+    ],
+    "initialOrders": [
+      { "id": 1, "type": "buy", "amount": 500, "amount_currency": "USDC",  "estimated": 5 , "estimated_currency": "NFTS"},
+      { "id": 2, "type": "sell", "amount": 3, "amount_currency": "NFTS",  "estimated": 450 , "estimated_currency": "USDC"}
+    ],
+    "converst_rate":[
+      {"from": "USDC", "to": "NFTS", "rate": 0.01 , "gas_cost": 0.001},
+      {"from": "NFTS", "to": "USDC", "rate": 100 , "gas_cost": 0.001}
+    ]
+  }
+  
